@@ -7,14 +7,14 @@
 }
 
 html {
-    font-family: 'Nunito', sans-serif;
-    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
     color: #fff;
 }
 
 body {
     min-height: 100vh;
-    background-color: dodgerblue;
+    background-color: rgb(26, 56, 87);
 }
 
 .App {
@@ -33,8 +33,8 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 1rem;
-    background-color: rgba(0,0,0,0.4);
+    padding: 1.5rem;
+    background-color: rgba(1, 11, 14, 0.4);
 }
 
 form {
@@ -102,9 +102,9 @@ button {
 }
 
 .errmsg {
-    background-color: lightpink;
-    color: firebrick;
-    font-weight: bold;
+    background-color: rgb(209, 235, 241);
+    color: rgb(211, 9, 9);
+    font-weight: bolder;
     padding: 0.5rem;
     margin-bottom: 0.5rem;
 }
